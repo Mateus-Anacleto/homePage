@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0c4a6e   ;
+    background-color: white   ;
 }
 .logo img{
     height: 200px;
-    margin-left: 320px;
     margin-top: 20px;
-
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .container {
     max-width: 1200px;
@@ -250,4 +251,62 @@ iframe{
 }
 .team-member6 h2{
     margin-top: 30px;
+}
+.footer{
+    display: flex; 
+    padding: 2rem; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+    margin-top: 2rem; 
+    flex-direction: column; 
+    gap: 1.5rem; 
+    align-items: center; 
+    border-top-width: 1px; 
+    width: 100%; 
+}
+.inicio{
+    display: flex; 
+    gap: 1.5rem; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 64rem; 
+}
+.position-logo{
+    display: flex; 
+    margin-top: 0.25rem; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.size-logo{
+    width: 320px;
+}
+.assets-img{
+    display: flex; 
+    gap: 1rem; 
+    align-items: center; 
+    opacity: 0.5; 
+
+}
+.rodape{
+    display: flex; 
+    gap: 1rem; 
+    align-items: center; 
+    opacity: 0.5; 
+}
+.slogan{
+    margin-top: 0.25rem; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 300; 
+    text-align: center; 
+    color: #374151; 
+}
+.letrero{
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: 300; 
+    text-align: center; 
+    color: #374151; 
+
 }
