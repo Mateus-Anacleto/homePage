@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white   ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .logo img{
     height: 200px;
@@ -38,13 +39,14 @@ body {
     
 }
 .tecnologias{
-    background-color: #f9f9f9;
+    background-color: #e2e8f0;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 20px 20px #0c4a6e;
     
 }
 .about-us {
-    background-color: #f9f9f9;
+    background-color: #e2e8f0;
     padding: 20px;
     border-radius: 10px;
     top: 20px;
@@ -52,6 +54,7 @@ body {
     margin-top: 20px;
     width: 420px;
     height: 200px;
+    box-shadow: 20px 20px #0c4a6e;
 
     
 }
@@ -59,15 +62,21 @@ body {
     font-size: 16px;
     line-height: 1.6;
     display: flex;
-    width: 400px;
-    margin-top: 50px;
+    width: 420px;
+    margin-top: 40px;
+    text-align: left;
 
+    
 }
 .caracteristicas{
     width: 500px;
-    background-color: #f9f9f9;
+    background-color: #ccfbf1;
+    line-height: 1.6;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    box-shadow: 20px 20px #2dd4bf;
 }
 
 .container2, .container1 {
@@ -77,19 +86,21 @@ body {
     margin-bottom: 20px;
     float: inline-end;
     margin-right: 25px;
+    margin-top: 40px;
+
+}
+.container1{
+    margin-left: 50px;
 }
                                      
 .pad1{
-    background-color: #cbd5e1;
-    padding: 20px;
     border-radius: 10px;
     margin-top: -340px;
     margin-right: 700px;
     
 }
 .pad2{
-    background-color: #cbd5e1;
-    padding: 20px;
+    
     border-radius: 10px;
     margin-top: 50px;
 }
@@ -102,18 +113,13 @@ iframe{
     
 }
 .titulo h2{
-    text-align: center;
-    padding: 20px;
-    background-color:#cbd5e1;
+    margin-left: 1%;
     height: 18px;
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 35%;
-
+    width: 900px;
+    margin-top: 90px;
 }
 
 .team-members img{
-    background-color: white;
     border-radius: 10px;
     width: 250px;
     height: 250px;
@@ -131,23 +137,33 @@ iframe{
     margin-left: 358px;
     margin-top: 30px;
 }
+.team-member1 p{
+    line-height: 1.6;
+}
 
 .team-member1{
+    margin-top: 25px;
     padding: 80px;
     padding-top: 10px;
     padding-left: 20px;
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 0px 20px 30px 0px #0c4a6e;
 }
 
 .team-member2{
+    margin-top: 80px;
     padding: 80px;
     padding-top: 10px;
     padding-left: 20px;
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 0px 20px 30px 0px #0c4a6e;
+}
+.team-member2 p{
+    line-height: 1.6;
 }
 .team-member2 img{
     background-color: #0c4a6e;
@@ -156,7 +172,8 @@ iframe{
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    margin: -20px 40px 20px 0px;
+    margin: -20px 10px 20px 0px;
+    margin-left: 50px;
 }
 .team-member2 p, h4, li{
     margin-left: 10px;
@@ -165,12 +182,17 @@ iframe{
     margin-top: 30px;
 }
 .team-member3{
+    margin-top: 80px;
     padding: 80px;
     padding-top: 10px;
     padding-left: 20px;
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 0px 20px 30px 0px #0c4a6e;
+}
+.team-member3 p{
+    line-height: 1.6;
 }
 .team-member3 img{
     background-color: #0c4a6e;
@@ -179,19 +201,21 @@ iframe{
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    margin: -25px 70px 10px 30px;
+    margin: -10px 70px 10px 30px;
 }
 .team-member3 h2{
     margin-left: 358px;
     margin-top: 30px;
 }
 .team-member4{
+    margin-top: 80px;
     padding: 80px;
     padding-top: 10px;
     padding-left: 20px;
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 0px 20px 30px 0px #0c4a6e;
 }
 .team-member4 img{
     background-color: #0c4a6e;
@@ -199,8 +223,12 @@ iframe{
     padding-right: 10px;
     border-radius: 10px;
     width: 250px;
-    height: 300px;
-    margin: -40px 40px 20px 0px;
+    height: 320px;
+    margin: -30px 10px 20px 0px;
+    margin-left: 50px;
+}
+.team-member4 p{
+    line-height: 1.6;
 }
 .team-member4 p, h4, li{
     margin-left: 10px;
@@ -209,12 +237,14 @@ iframe{
     margin-top: 30px;
 }
 .team-member5{
+    margin-top: 80px;
     padding: 80px;
     padding-top: 10px;
     padding-left: 20px;
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 0px 20px 30px 0px #0c4a6e;
 }
 .team-member5 img{
     background-color: #0c4a6e;
@@ -229,13 +259,18 @@ iframe{
     margin-left: 358px;
     margin-top: 30px;
 }
+.team-member5 p{
+    line-height: 1.6;
+}
 .team-member6{
+    margin-top: 80px;
     padding: 80px;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 20px;
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 0px 20px 30px 0px #0c4a6e;
 }
 .team-member6 img{
     background-color: #0c4a6e;
@@ -244,15 +279,19 @@ iframe{
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    margin: -20px 40px 20px 0px;
+    margin: -20px 10px 20px 0px;
+    margin-left: 50px; 
 }
 .team-member6 p, h4, li{
     margin-left: 10px;
 }
+.team-member6 p{
+    line-height: 1.6;
+}
 .team-member6 h2{
     margin-top: 30px;
 }
-.footer{
+footer{
     display: flex; 
     padding: 2rem; 
     padding-top: 1.5rem;
