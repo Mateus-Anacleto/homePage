@@ -42,7 +42,7 @@ body {
     background-color: #e2e8f0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 20px 20px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
     
 }
 .about-us {
@@ -54,7 +54,7 @@ body {
     margin-top: 20px;
     width: 420px;
     height: 200px;
-    box-shadow: 20px 20px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
 
     
 }
@@ -76,7 +76,7 @@ body {
     border-radius: 10px;
     margin-bottom: 80px;
     display: flex;
-    box-shadow: 20px 20px #2dd4bf;
+    box-shadow: 15px 15px 10px #2dd4bf;
 }
 
 .container2, .container1 {
@@ -87,7 +87,6 @@ body {
     float: inline-end;
     margin-right: 25px;
     margin-top: 40px;
-
 }
 .container1{
     margin-left: 50px;
@@ -149,7 +148,7 @@ iframe{
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 20px 30px 0px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
 }
 
 .team-member2{
@@ -160,7 +159,7 @@ iframe{
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 20px 30px 0px #0c4a6e;
+    box-shadow: 15px 15px 10px#0c4a6e;
 }
 .team-member2 p{
     line-height: 1.6;
@@ -189,7 +188,7 @@ iframe{
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 20px 30px 0px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
 }
 .team-member3 p{
     line-height: 1.6;
@@ -215,7 +214,7 @@ iframe{
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 20px 30px 0px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
 }
 .team-member4 img{
     background-color: #0c4a6e;
@@ -244,7 +243,7 @@ iframe{
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 20px 30px 0px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
 }
 .team-member5 img{
     background-color: #0c4a6e;
@@ -270,7 +269,7 @@ iframe{
     background-color: #cbd5e1;
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 20px 30px 0px #0c4a6e;
+    box-shadow: 15px 15px 10px #0c4a6e;
 }
 .team-member6 img{
     background-color: #0c4a6e;
@@ -346,6 +345,5 @@ footer{
     line-height: 1rem; 
     font-weight: 300; 
     text-align: center; 
-    color: #374151; 
-
+    color:#374151;
 }
